@@ -4,7 +4,6 @@
       <el-aside width="200px">
         <Sidebar></Sidebar>
       </el-aside>
-
       <el-container>
         <el-header>
           <CommonHeader></CommonHeader>
@@ -24,19 +23,7 @@ import Sidebar from '@/components/Sidebar.vue';
 </script>
 
 <style scoped>
-* {
-  margin: 0;
-  padding: 0;
-}
-
-body,
-html {
-  margin: 0;
-  padding: 0;
-}
-
 .el-aside {
-  height: 100vh;
   background-color: #be1313;
 }
 
@@ -47,4 +34,5 @@ html {
 
 .el-main {
   background-color: #7b7ac9;
-}</style>
+}
+</style>
