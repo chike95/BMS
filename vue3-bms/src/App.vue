@@ -1,7 +1,7 @@
 <template>
   <div class="common-layout">
     <el-container>
-      <el-aside width="200px">
+      <el-aside>
         <Sidebar></Sidebar>
       </el-aside>
       <el-container>
@@ -24,6 +24,8 @@ import Sidebar from '@/components/Sidebar.vue';
 
 <style scoped>
 .el-aside {
+  width: 200px;
+  height: 100vh;
   background-color: #be1313;
 }
 

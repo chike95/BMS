@@ -27,7 +27,7 @@
 
 <style scoped>
 .el-menu {
-    height: 100vh;
     background-color: #90b920;
+
 }
 </style>
