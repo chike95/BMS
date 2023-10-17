@@ -9,7 +9,9 @@ import SidebarMenu from '@/components/menus/SidebarMenu.vue';
 </script>
 <style scoped>
 h3 {
-    height: 38px;
+    height: 76px;
+    line-height: 76px;
     text-align: center;
+    margin: 0;
 }
 </style>

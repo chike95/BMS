@@ -31,7 +31,10 @@ import Sidebar from '@/components/Sidebar.vue';
 
 .el-header {
   height: 76px;
-  background-color: #17ce63;
+  position: relative;
+  text-align: right;
+  background-color: var(--el-color-primary-light-7);
+  color: var(--el-text-color-primary);
 }
 
 .el-main {
